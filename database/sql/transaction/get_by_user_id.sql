@@ -1,0 +1,1 @@
+select id, telegram_user_id, purchase_date, asset, price, amount  from transaction where telegram_user_id=$1 limit 1

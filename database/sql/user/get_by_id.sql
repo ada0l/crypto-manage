@@ -1,0 +1,1 @@
+select id from telegram_user where id=$1 limit 1

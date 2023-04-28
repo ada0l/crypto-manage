@@ -1,0 +1,7 @@
+{{ range . }}{{ .Asset }}
+Amount: {{ printf "%.7f" .Amount}}
+Average price: {{ printf "%.7f" .AvgPrice }}
+Spend: {{ printf "%.2f" .Spend}}
+Percent: {{ printf "%.2f" .Percent}}%
+
+{{ end }}
